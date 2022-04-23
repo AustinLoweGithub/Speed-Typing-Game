@@ -26,7 +26,7 @@ body, .quote-input{
 
 .timer{
     position: absolute;
-    top: 2rem;
+    top: 6rem;
     font-size: 3rem;
     color: #F0DB4F;
     font-weight: bold;
@@ -63,4 +63,24 @@ body, .quote-input{
 .incorrect{
     color: red;
     text-decoration: underline;
+}
+.previousTime{
+    color: #F0DB4F;
+    font-size: 2rem;
+    position: absolute;
+    left: 7rem;
+}
+.prevtime{
+    color: #F0DB4F;
+    font-size: 2rem;
+    position: absolute;
+    left: 2rem;
+    top: 35rem;
+}
+.curtime{
+    position: absolute;
+    top: 2rem;
+    font-size: 3rem;
+    color: #F0DB4F;
+    font-weight: bold;
 }

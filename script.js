@@ -2,6 +2,7 @@ const Random_Quote_Api_Url = "https://api.quotable.io/random";
 const quoteDisplayElement = document.getElementById("quoteDisplay");
 const quoteInputElement = document.getElementById("quoteInput");
 const timerElement = document.getElementById('timer');
+const previousTime = document.getElementById('previousTime');
 
 
 quoteInputElement.addEventListener('input', () =>{
@@ -47,6 +48,7 @@ async function renderNewQuote(){
         quoteDisplayElement.appendChild(characterSpan)
     })
     quoteInputElement.value = null
+    previousTime.innerText = timerElement.innerText
     startTimer()
 }
 
